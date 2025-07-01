@@ -1,6 +1,9 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-# Laravel Docker Starter Kit
+# Laravel Bookings Application Example
+
+The project is used for [OTUS](https://otus.ru/) open lesson about bookings service.
+
 - Laravel v11.x
 - PHP v8.3.x
 - PostgreSQL v16.x
@@ -12,8 +15,7 @@
 # How To Deploy
 
 ### For first time only !
-- `git clone [PROJECT_REPOSITORY]`
-- `cd laravel-docker`
+- `cd [PATH_TO_PROJECT]`
 - `docker compose up -d --build`
 - `docker compose exec php bash`
 - `chown -R www-data:www-data /var/www/storage /var/www/bootstrap/cache /var/www/storage/logs`
